@@ -6,19 +6,14 @@
 - The data comes from 2 Json file in ``|--json_ressources/``
 
 ## Commands to run the project
-cd into the backend test folder:
 
-```bash
-cd /backend
-```
-
-From here Install Node Dependencies:
+Install Node Dependencies:
 
 ```bash
 npm i
 ```
 
-Then Start the server with nodemon:
+Start the server with nodemon:
 
 ```bash
 npm start
