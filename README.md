@@ -34,6 +34,7 @@ npm start
 
 ## Blocking points
 - The Client can not create dynamically a link, some improvement need to be done e.g add a schema directive
+- The Client can not get links orderby date. Need to implement helper function to sort that
 - Field Validation are not done. Need to code custom scalar type for some fields e.g Date / character limit / url parser 
 
 ## Futur implementation
@@ -54,5 +55,5 @@ npm start
   - implement cost score attribute for all queries
 - adopt a proper folder structure:
   - modularise GraphQl folder like resolver / mutation / queries....
-  - Create   Model / controller / services folders 
+  - Create   Models / controllers / services / Helpers folders 
 
